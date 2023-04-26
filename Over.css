@@ -1,18 +1,18 @@
  .u-section-1 {
-  min-height: 1104px;
+  min-height: 730px;
 }
 
 .u-section-1 .u-image-1 {
-  height: 754px;
+  height: 728px;
   filter: brightness(0.35);
-  margin-top: -79px;
+  margin-top: 2px;
   margin-bottom: 0;
 }
 
 .u-section-1 .u-text-1 {
   font-size: 4.5rem;
   font-weight: 600;
-  margin: -463px auto 0;
+  margin: -516px auto 0;
 }
 
 .u-section-1 .u-text-2 {
@@ -59,15 +59,15 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 0.625rem;
-  margin: -172px auto 0;
-  padding: 0 16px 0 14px;
+  font-size: 0.875rem;
+  margin: -173px auto 0;
+  padding: 10px 36px 10px 35px;
 }
 
 .u-section-1 .u-image-2 {
   width: 93px;
   height: 93px;
-  margin: 152px calc(((100% - 1140px) / 2) + -69px) 60px auto;
+  margin: -471px calc(((100% - 1140px) / 2) + 521px) 60px auto;
 }
 
 @media (max-width: 1199px) {
@@ -80,7 +80,7 @@
   }
 
   .u-section-1 .u-image-2 {
-    margin-right: calc(((100% - 940px) / 2) + -69px);
+    margin-right: calc(((100% - 940px) / 2) + 521px);
   }
 }
 
@@ -94,7 +94,7 @@
   }
 
   .u-section-1 .u-image-2 {
-    margin-right: calc(((100% - 720px) / 2) + -69px);
+    margin-right: calc(((100% - 720px) / 2) + 521px);
   }
 }
 
@@ -108,7 +108,7 @@
   }
 
   .u-section-1 .u-image-2 {
-    margin-right: calc(((100% - 540px) / 2) + -69px);
+    margin-right: calc(((100% - 540px) / 2) + 447px);
   }
 }
 
@@ -119,24 +119,19 @@
 
   .u-section-1 .u-btn-1 {
     font-size: 0.625rem;
-    margin-left: calc(((100% - 340px) / 2) + 69px);
     padding-right: 12px;
     padding-left: 10px;
+    margin-left: calc(((100% - 340px) / 2));
   }
 
   .u-section-1 .u-btn-2 {
     font-size: 0.625rem;
-    margin-top: -40px;
-    margin-right: calc(((100% - 340px) / 2) + 76px);
+    margin-right: calc(((100% - 340px) / 2));
     padding: 10px 12px;
   }
 
-  .u-section-1 .u-icon-1 {
-    margin-top: 166px;
-  }
-
   .u-section-1 .u-image-2 {
-    margin-right: calc(((100% - 340px) / 2) + -69px);
+    margin-right: calc(((100% - 340px) / 2) + 247px);
   }
 }
 
@@ -443,22 +438,6 @@
 .u-section-4 .u-form-1 {
   width: 570px;
   margin: 39px auto;
-}
-
-.u-section-4 .u-form-group-1 {
-  width: 100%;
-}
-
-.u-section-4 .u-form-group-2 {
-  width: 100%;
-}
-
-.u-section-4 .u-form-group-3 {
-  width: 100%;
-}
-
-.u-section-4 .u-form-group-4 {
-  width: 100%;
 }
 
 .u-section-4 .u-btn-1 {
