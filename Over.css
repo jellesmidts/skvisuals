@@ -1,6 +1,6 @@
  .u-section-1 {
   min-height: 788px;
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("images/IMG_9927kopieren.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url("images/IMG_9927kopieren.jpg");
 }
 
 .u-section-1 .u-image-1 {
@@ -93,6 +93,10 @@
 }
 
 @media (max-width: 767px) {
+   .u-section-1 {
+    min-height: 737px;
+  }
+
   .u-section-1 .u-image-1 {
     margin-right: calc(((100% - 540px) / 2) + 447px);
   }
@@ -107,8 +111,12 @@
 }
 
 @media (max-width: 575px) {
+   .u-section-1 {
+    min-height: 610px;
+  }
+
   .u-section-1 .u-image-1 {
-    margin-right: auto;
+    margin-right: calc(((100% - 340px) / 2) + 247px);
   }
 
   .u-section-1 .u-text-1 {
@@ -117,21 +125,19 @@
 
   .u-section-1 .u-btn-1 {
     font-size: 0.625rem;
-    margin-left: calc(((100% - 340px) / 2) + 83px);
     padding-right: 12px;
     padding-left: 10px;
+    margin-left: calc(((100% - 340px) / 2));
   }
 
   .u-section-1 .u-btn-2 {
     font-size: 0.625rem;
-    margin-top: -40px;
-    margin-right: calc(((100% - 340px) / 2) + 66px);
+    margin-right: calc(((100% - 340px) / 2));
     padding: 10px 12px;
   }
 
   .u-section-1 .u-btn-3 {
     font-size: 0.625rem;
-    margin-top: 13px;
     padding-top: 9px;
     padding-right: 15px;
     padding-left: 14px;
