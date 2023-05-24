@@ -388,9 +388,12 @@ h6,
 .h6 {
   margin-bottom: 0.5rem;
   font-family: "Oswald", sans-serif;
-  font-weight: 500;
-  line-height: 1.2;
+  font-weight: 500px;
+  font-size: 3rem
+  line-height: 1.5;
 }
+
+
 
 h1,
 .h1 {
@@ -399,7 +402,7 @@ h1,
 
 h2,
 .h2 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
 h3,
@@ -409,7 +412,7 @@ h3,
 
 h4,
 .h4 {
-  font-size: 1.6rem;
+  font-size: 1.0rem;
 }
 
 h5,
@@ -434,7 +437,7 @@ h6,
 }
 
 .display-2 {
-  font-size: 5.5rem;
+  font-size: 3.5rem;
   font-weight: 300;
   line-height: 1.2;
 }
@@ -7581,7 +7584,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #ffffff !important;
+  background-color: #f8f8f8 !important;
 }
 
 a.bg-dark:hover,
@@ -7596,7 +7599,7 @@ button.bg-dark:focus {
 }
 
 .bg-transparent {
-  background-color: transparent !important;
+  background-color: white !important;
 }
 
 .border {
@@ -9484,7 +9487,7 @@ button.bg-dark:focus {
 
 .pt-5,
 .py-5 {
-  padding-top: 3rem !important;
+  padding-top: 2rem !important;
 }
 
 .pr-5,
@@ -9494,7 +9497,7 @@ button.bg-dark:focus {
 
 .pb-5,
 .py-5 {
-  padding-bottom: 3rem !important;
+  padding-bottom: 0.5rem !important;
 }
 
 .pl-5,
@@ -11707,7 +11710,7 @@ pre {
 
 .section-title {
   color: #000;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 .has-height-xs {
@@ -11719,7 +11722,8 @@ pre {
 }
 
 .has-height-md {
-  min-height: 300px;
+  min-height: 200px;
+  color: grey;
 }
 
 .has-height-lg {
